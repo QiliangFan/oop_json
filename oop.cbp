@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="oop" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/oop" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/oop" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/json_file.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="nlohmann/adl_serializer.hpp" />
+		<Unit filename="nlohmann/byte_container_with_subtype.hpp" />
+		<Unit filename="nlohmann/detail/boolean_operators.hpp" />
+		<Unit filename="nlohmann/detail/conversions/from_json.hpp" />
+		<Unit filename="nlohmann/detail/conversions/to_chars.hpp" />
+		<Unit filename="nlohmann/detail/conversions/to_json.hpp" />
+		<Unit filename="nlohmann/detail/exceptions.hpp" />
+		<Unit filename="nlohmann/detail/input/binary_reader.hpp" />
+		<Unit filename="nlohmann/detail/input/input_adapters.hpp" />
+		<Unit filename="nlohmann/detail/input/json_sax.hpp" />
+		<Unit filename="nlohmann/detail/input/lexer.hpp" />
+		<Unit filename="nlohmann/detail/input/parser.hpp" />
+		<Unit filename="nlohmann/detail/input/position_t.hpp" />
+		<Unit filename="nlohmann/detail/iterators/internal_iterator.hpp" />
+		<Unit filename="nlohmann/detail/iterators/iter_impl.hpp" />
+		<Unit filename="nlohmann/detail/iterators/iteration_proxy.hpp" />
+		<Unit filename="nlohmann/detail/iterators/iterator_traits.hpp" />
+		<Unit filename="nlohmann/detail/iterators/json_reverse_iterator.hpp" />
+		<Unit filename="nlohmann/detail/iterators/primitive_iterator.hpp" />
+		<Unit filename="nlohmann/detail/json_pointer.hpp" />
+		<Unit filename="nlohmann/detail/json_ref.hpp" />
+		<Unit filename="nlohmann/detail/macro_scope.hpp" />
+		<Unit filename="nlohmann/detail/macro_unscope.hpp" />
+		<Unit filename="nlohmann/detail/meta/cpp_future.hpp" />
+		<Unit filename="nlohmann/detail/meta/detected.hpp" />
+		<Unit filename="nlohmann/detail/meta/is_sax.hpp" />
+		<Unit filename="nlohmann/detail/meta/type_traits.hpp" />
+		<Unit filename="nlohmann/detail/meta/void_t.hpp" />
+		<Unit filename="nlohmann/detail/output/binary_writer.hpp" />
+		<Unit filename="nlohmann/detail/output/output_adapters.hpp" />
+		<Unit filename="nlohmann/detail/output/serializer.hpp" />
+		<Unit filename="nlohmann/detail/value_t.hpp" />
+		<Unit filename="nlohmann/json.hpp" />
+		<Unit filename="nlohmann/json_fwd.hpp" />
+		<Unit filename="nlohmann/thirdparty/hedley/hedley.hpp" />
+		<Unit filename="nlohmann/thirdparty/hedley/hedley_undef.hpp" />
+		<Unit filename="src/json_file.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

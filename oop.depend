@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1592931961 source:f:\codeblocks\oop\main.cpp
+	<iostream>
+	<iomanip>
+	<string>
+	<nlohmann/json.hpp>
+	"json_file.h"
+
+1592931874 f:\codeblocks\oop\include\json_file.h
+	<iostream>
+	<string>
+	<fstream>
+	<stack>
+	<nlohmann/json.hpp>
+	<winsock2.h>
+	<windows.h>
+
+1592931919 source:f:\codeblocks\oop\src\json_file.cpp
+	"json_file.h"
+
