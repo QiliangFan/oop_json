@@ -23,6 +23,7 @@ class json_file
 {
     public:
         json_file();
+
         virtual ~json_file();
 
         // read from local file object
@@ -37,6 +38,7 @@ class json_file
         // read from json object
         json_file(json& jo);
 
+        // print to console
         void print();
 
         void write(string filename);

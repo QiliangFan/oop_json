@@ -1,16 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
-	<ActiveTarget name="Debug" />
-	<File name="nlohmann\json.hpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<ActiveTarget name="Release" />
+	<File name="src\json_file.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="85350" topLine="475" />
+			<Cursor1 position="138" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\json_file.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="739" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="nlohmann\json_fwd.hpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1627" topLine="30" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="173" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="nlohmann\json.hpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="231061" topLine="1328" />
 		</Cursor>
 		<Folding>
 			<Collapse line="0" />
 			<Collapse line="75" />
 			<Collapse line="83" />
-			<Collapse line="195" />
 			<Collapse line="200" />
 			<Collapse line="339" />
 			<Collapse line="411" />
@@ -75,7 +94,6 @@
 			<Collapse line="1472" />
 			<Collapse line="1483" />
 			<Collapse line="1520" />
-			<Collapse line="1594" />
 			<Collapse line="1597" />
 			<Collapse line="1600" />
 			<Collapse line="1602" />
@@ -549,10 +567,6 @@
 			<Collapse line="6454" />
 			<Collapse line="6458" />
 			<Collapse line="6534" />
-			<Collapse line="6548" />
-			<Collapse line="6613" />
-			<Collapse line="6616" />
-			<Collapse line="6625" />
 			<Collapse line="6628" />
 			<Collapse line="6636" />
 			<Collapse line="6641" />
@@ -590,12 +604,6 @@
 			<Collapse line="7241" />
 			<Collapse line="7243" />
 			<Collapse line="7248" />
-			<Collapse line="7305" />
-			<Collapse line="7311" />
-			<Collapse line="7320" />
-			<Collapse line="7324" />
-			<Collapse line="7328" />
-			<Collapse line="7333" />
 			<Collapse line="7437" />
 			<Collapse line="7440" />
 			<Collapse line="7448" />
@@ -736,25 +744,5 @@
 			<Collapse line="8698" />
 		</Folding>
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="407" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="include\json_file.h" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="739" topLine="15" />
-		</Cursor>
-	</File>
-	<File name="nlohmann\json_fwd.hpp" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1627" topLine="30" />
-		</Cursor>
-	</File>
-	<File name="src\json_file.cpp" open="1" top="1" tabpos="4" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="137" topLine="129" />
-		</Cursor>
-	</File>
-	<EditorTabsLayout layout="07b7c3105ef1f45300003ec600000002=0;oop:nlohmann\json.hpp,1;oop:main.cpp,2;oop:include\json_file.h,*3;oop:src\json_file.cpp,4;oop:nlohmann\json_fwd.hpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=827;besth=335;minw=827;minh=335;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=07b7c3105ef1f45300003ec600000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|" />
+	<EditorTabsLayout layout="085fa6a05ef2ad780000387b00000002=*0;oop:nlohmann\json.hpp,1;oop:main.cpp,2;oop:include\json_file.h,3;oop:src\json_file.cpp,4;oop:nlohmann\json_fwd.hpp@layout2|name=dummy;caption=;state=2098174;dir=3;layer=0;row=0;pos=0;prop=100000;bestw=827;besth=335;minw=827;minh=335;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=085fa6a05ef2ad780000387b00000002;caption=;state=2098172;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(5,0,0)=252|" />
 </CodeBlocks_layout_file>
