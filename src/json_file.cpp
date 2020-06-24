@@ -8,12 +8,16 @@ json_file::json_file()
 json_file::json_file(ifstream & fileObject)
 {
     fileObject>>*json_string;
+    json tmp_json = json::parse(*json_string);
+    json_object = new json(tmp_json.begin(), tmp_json.end());
 }
 
 json_file::json_file(string& filename)
 {
     ifstream inf(filename);
     inf>>*json_string;
+    json tmp_json = json::parse(*json_string);
+    json_object = new json(tmp_json.begin(), tmp_json.end());
 }
 
 json_file::json_file(const string& url, int& status_code)
@@ -128,7 +132,8 @@ json_file::json_file(const string& url, int& status_code)
         }
         if(write) my_json += ch;
     }
-    json_object = new json(my_json);
+    json tmp_json = json::parse(my_json);
+    json_object = new json(tmp_json.begin(), tmp_json.end());
     closesocket(Socket);
     WSACleanup();
 }
